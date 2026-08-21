@@ -6,8 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/ARImageTrackingMug.unity
+    guid: e1ff4b64781a9a04a9645e16e6507f52
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fd9717f769cc6494cb7a816d5d4df9be, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 558fd7a8a1c734d4a827007973cba6e8, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ab3a53958a840a7458b0643f2ad1ba88, type: 2}
   m_UseUCBPForAssetBundles: 0
